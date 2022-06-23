@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.p1 {
+  color: rgb(218, 25, 25);
+  background-color: bisque;
+  font-size: 40px;
+  width: 600px;
+  margin: 20px;
+}
+.p2 {
+  /* otstup v nutri */
+  padding: 20px;
+  /* otstup s naruzi */
+  margin: 20px;
+  background-color: aqua;
+  width: 400px;
+}
+
+.p3 {
+  border: 1px solid black;
+  width: 600px;
+  padding: 20px;
+  margin: 20px;
+  font-size: 40px;
+}
+.p4{
+    border: 1px solid black;
+    width: 600px;
+    margin: 20px;
+}
+.main:hover{
+    color: brown;
+    padding: 20px;
+    margin: 20px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.red:hover{
+    color: aqua;
+}
+s{
+    color: black;
+    font-size: 40px;
+}
+u{
+    color: brown;
+}
