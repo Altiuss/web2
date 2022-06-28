@@ -11,46 +11,62 @@
     <form>
       <label>
         <p>Enter e-mail:</p>
-        <input type="text" placeholder="Email" />
+        <input type="text" placeholder="Email" name="" value="" class="inputText"/>
       </label>
 
       <label> <p>Enter password:</p></label>
-      <input type="password" placeholder="Password" id="password" />
+      <input type="password" placeholder="Password" id="password" class="inputText" />
 
       <br /><br /><br /><br />
       <p>Ko es vēlos mācīties?</p>
 
       <label>
-        <input type="checkbox" />
+        <input type="checkbox" name="languages" value="java"/>
         <p class="text">Java</p>
       </label>
 
       <label>
-        <input type="checkbox" />
+        <input type="checkbox"  name="languages" value="javascript"/>
         <p class="text">Javascript</p>
       </label>
 
       <label>
-        <input type="checkbox" />
+        <input type="checkbox" name="languages" value="python" />
         <p class="text">Python</p>
       </label>
 
       <p>Ar Kādu OS es vēlos strādāt?</p>
 
       <label>
-        <input type="checkbox" name="operating_systems" />
+        <input type="checkbox" name="operating_systems" value="windows" />
         <p class="text">Windows</p>
       </label>
 
       <label>
-        <input type="checkbox" name="operating_systems" />
+        <input type="checkbox" name="operating_systems"  value="mac"/>
         <p class="text">MacOs</p>
       </label>
-      
+
       <label>
-        <input type="checkbox" name="operating_systems" />
+        <input type="checkbox" name="operating_systems" value="linux" />
         <p class="text">Linux</p>
       </label>
+
+      <p>Kādā pilsētā es dzivoju</p>
+
+   <label >
+<input type="radio" name="cities" value="berlin"><p class="text"> Berlin</p>
+   </label>
+   <label >
+<input type="radio" name="cities" value="riga"> <p class="text">Riga</p>
+   </label>
+   <label >
+<input type="radio" name="cities" value="praga"><p class="text">Praga</p>
+   </label>
+
+   <br><br><br>
+   <textarea name="" id=""></textarea>
+   
 
       <br /><br />
       <button type="submit">Send</button>

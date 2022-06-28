@@ -15,3 +15,15 @@ p{
     display: inline-block;
     color: rgb(206, 69, 69);
 }
+textarea{
+    /* resize: none; */
+}
+
+ .inputText:hover{
+    outline: none;
+   border-color: rgb(236, 16, 16);
+   color: rgb(239, 239, 247);
+   background-color: aqua;
+
+
+} 
